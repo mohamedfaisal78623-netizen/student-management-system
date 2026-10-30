@@ -1,0 +1,53 @@
+.navbar {
+  height: 70px;
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-title h2 {
+  font-size: 22px;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.welcome-text {
+  color: #555;
+  font-size: 14px;
+}
+
+.admin-profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #333;
+  font-weight: 600;
+}
+
+.admin-icon {
+  font-size: 22px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 0 12px;
+  }
+
+  .navbar-title h2 {
+    font-size: 15px;
+  }
+
+  .welcome-text {
+    display: none;
+  }
+}
